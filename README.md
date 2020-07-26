@@ -1,5 +1,5 @@
-# SAFE:Similarity-Aware Multi-modal Fake News Detection
-This code implements [SAFE:Similarity-Aware Multi-modal Fake News Detection](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27) model.
+# SAFE
+This code implements [SAFE: Similarity-Aware Multi-modal Fake News Detection](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27) model.
 
 
 ## Requirements
@@ -27,11 +27,12 @@ python3 test.py
 ## Citation
 If you use this code for your research, please cite our [paper](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27):
 ```
-@article{zhou2020safe,
-  title={SAFE: Similarity-aware multi-modal fake news detection},
+@inproceedings{zhou2020multimodal,
+  title={SAFE: Similarity-Aware Multi-modal Fake News Detection},
   author={Zhou, Xinyi and Wu, Jindi and Zafarani, Reza},
-  journal={arXiv preprint arXiv:2003.04981},
-  year={2020}
+  booktitle={The 24th Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  year={2020},
+  organization={Springer}
 }
 ```
 
