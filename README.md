@@ -30,7 +30,8 @@ If you use this code for your research, please cite our [paper](https://link.spr
 @inproceedings{zhou2020multimodal,
   title={SAFE: Similarity-Aware Multi-modal Fake News Detection},
   author={Zhou, Xinyi and Wu, Jindi and Zafarani, Reza},
-  booktitle={The 24th Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  booktitle={Pacific-Asia Conference on Knowledge Discovery and Data Mining},
+  pages={354--367},
   year={2020},
   organization={Springer}
 }
