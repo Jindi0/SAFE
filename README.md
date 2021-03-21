@@ -1,6 +1,14 @@
 # SAFE
 This code implements [SAFE: Similarity-Aware Multi-modal Fake News Detection](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27) model.
 
+## Resource 
+### Dataset
+Thanks for the support from the [FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet) team. We use the previous version of FakeNewsNet and upload the dataset we use to [this link](https://drive.google.com/drive/folders/1gSx4S9i6Haul4TQRkoNQtj3sRHVwGFQ3?usp=sharing), in which we also provided the news images named after the corresponding news ID. And the dataset has been updated in FakeNewsNet Github repository.
+### Image captioning tool
+We use [Show and Tell](https://github.com/nikhilmaram/Show_and_Tell) to abstract the content of images.
+### Word2vec embedding
+We embed words use pre-trained word vectors [glove.840B.300d](https://github.com/stanfordnlp/GloVe) and the embedding tool [SIF](https://github.com/PrincetonML/SIF). The computation of glove.840B.300d word map is time-consuming, in order to provide more convenience we upload [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), the result of `data_io.getWordmap(wordfile)` in SIF. 
+
 
 ## Requirements
 - Python 3.7
