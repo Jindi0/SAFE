@@ -33,7 +33,7 @@ python3 test.py
 ```
 
 ## Citation
-If you use this code for your research, please cite our [paper](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27):
+If you use this code for your research, please cite our [paper](https://www.researchgate.net/publication/339873393_SAFE_Similarity-Aware_Multi-Modal_Fake_News_Detection):
 ```
 @inproceedings{zhou2020multimodal,
   title={SAFE: Similarity-Aware Multi-modal Fake News Detection},
