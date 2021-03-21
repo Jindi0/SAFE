@@ -3,7 +3,7 @@ This code implements [SAFE: Similarity-Aware Multi-modal Fake News Detection](ht
 
 ## Resource 
 ### Dataset
-Thanks for the support from the [FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet) team. We use the previous version of FakeNewsNet and upload the dataset we use to [this link](https://drive.google.com/drive/folders/1gSx4S9i6Haul4TQRkoNQtj3sRHVwGFQ3?usp=sharing), in which we also provid the news images named after the corresponding news ID. And the dataset has been updated in FakeNewsNet Github repository.
+We use FakeNewsNet dataset and provide our data in [this link](https://drive.google.com/drive/folders/1gSx4S9i6Haul4TQRkoNQtj3sRHVwGFQ3?usp=sharing). For the latest verision of FakeNewsNet, please directly check out: https://github.com/KaiDMML/FakeNewsNet.
 ### Image captioning tool
 We use [Show and Tell](https://github.com/nikhilmaram/Show_and_Tell) to abstract the content of images.
 ### Word2vec embedding
@@ -44,5 +44,8 @@ If you use this code for your research, please cite our [paper](https://link.spr
   organization={Springer}
 }
 ```
+
+## Contact
+If you have any question, please contact zhouxinyi@data.syr.edu.
 
 
