@@ -1,5 +1,5 @@
 # SAFE
-This code implements [SAFE: Similarity-Aware Multi-modal Fake News Detection](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27) model.
+This code implements [SAFE: Similarity-Aware Multi-modal Fake News Detection](https://www.researchgate.net/publication/339873393_SAFE_Similarity-Aware_Multi-Modal_Fake_News_Detection) model.
 
 ## Resource 
 ### Dataset
