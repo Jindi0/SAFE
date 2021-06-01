@@ -12,7 +12,7 @@ def get_weighted_average(We, x, w):
     """
     n_samples = x.shape[0]
     emb = np.zeros((n_samples, We.shape[1]))
-    for i in xrange(n_samples):
+    for i in range(n_samples):
         emb[i,:] = w[i,:].dot(We[x[i,:],:]) / np.count_nonzero(w[i,:])
     return emb
 
