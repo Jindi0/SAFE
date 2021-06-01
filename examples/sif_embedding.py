@@ -15,7 +15,7 @@ rmpc = 1 # number of principal components to remove in SIF weighting scheme
 params = params.params()
 params.rmpc = rmpc
 
-keep_headline_words = 10  # the number of kept embedding words in the article headline
+keep_headline_words = 10  # the number of kept embedding words in the article headline (10, 20, 30 ...)
 keep_body_workds = 100  # the number of kept embedding words in the article body
 
 
