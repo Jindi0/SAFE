@@ -27,7 +27,13 @@ The code is separated into the following parts:
 * SIF embedding: involves SIF_embedding.py. The SIF weighting scheme is very simple and is implmented in a few lines.
 * textual similarity tasks: involves data_io.py, eval.py, and sim_algo.py. data_io provides the code for reading the data, eval is for evaluating the performance, and sim_algo provides the code for our sentence embedding algorithm.
 * supervised tasks: involves data_io.py, eval.py, train.py, proj_model_sim.py, and proj_model_sentiment.py. train provides the entry for training the models (proj_model_sim is for the similarity and entailment tasks, and proj_model_sentiment is for the sentiment task). Check train.py to see the options.
-* utilities: includes lasagne_average_layer.py, params.py, and tree.py. These provides utility functions/classes for the above two parts. 
+* utilities: includes lasagne_average_layer.py, params.py, and tree.py. These provides utility functions/classes for the above two parts.
+
+## Adapt to SAFE
+The project is the same as the original one but the SIF/examples/sif_embedding.py file and some minor modifications for adapting python3.
+* Intermediate result: we provide [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), which is the result of `data_io.getWordmap(wordfile)` in SIF. words.json and We.npy should be downloaded and placed into SIF/data/.
+* Embedding: the modified sif_embedding.py will access cleaned.json files in the preprocessed dataset [FakeNewsNet_Dataset_processed](https://drive.google.com/file/d/1h13IOBk106kLXGXkjvnMhbwk1dOQTbC-/view?usp=sharing) and embed the article headline and text into headline.npy and body.npy (included in FakeNewsNet_Dataset_processed), respectively.
+
 
 ## References
 For technical details and full experimental results, see [the paper](https://openreview.net/forum?id=SyK00v5xx).
