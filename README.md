@@ -1,9 +1,9 @@
 # SAFE
-This code implements [SAFE: Similarity-Aware Multi-modal Fake News Detection](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27) model.
+This code implements [SAFE: Similarity-Aware Multi-modal Fake News Detection](https://www.researchgate.net/publication/339873393_SAFE_Similarity-Aware_Multi-Modal_Fake_News_Detection) model.
 
 ## Resource 
 ### Dataset
-Thanks for the support from the [FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet) team. We use the previous version of FakeNewsNet and upload the dataset we use to [this link](https://drive.google.com/drive/folders/1gSx4S9i6Haul4TQRkoNQtj3sRHVwGFQ3?usp=sharing), in which we also provid the news images named after the corresponding news ID. And the dataset has been updated in FakeNewsNet Github repository.
+We use [FakeNewsNet](https://arxiv.org/abs/1809.01286) dataset and provide our data in [this link](https://drive.google.com/drive/folders/1gSx4S9i6Haul4TQRkoNQtj3sRHVwGFQ3?usp=sharing). For the latest verision of FakeNewsNet, please directly check out: https://github.com/KaiDMML/FakeNewsNet.
 ### Image captioning tool
 We use [Show and Tell](https://github.com/nikhilmaram/Show_and_Tell) to abstract the content of images.
 ### Word2vec embedding
@@ -36,7 +36,7 @@ python3 test.py
 ```
 
 ## Citation
-If you use this code for your research, please cite our [paper](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27):
+If you use this code for your research, please cite our [paper](https://www.researchgate.net/publication/339873393_SAFE_Similarity-Aware_Multi-Modal_Fake_News_Detection):
 ```
 @inproceedings{zhou2020multimodal,
   title={SAFE: Similarity-Aware Multi-modal Fake News Detection},
@@ -47,5 +47,8 @@ If you use this code for your research, please cite our [paper](https://link.spr
   organization={Springer}
 }
 ```
+
+## Contact
+If you have any question, please contact zhouxinyi@data.syr.edu.
 
 
