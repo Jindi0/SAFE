@@ -32,7 +32,7 @@ The code is separated into the following parts:
 ## Adapt to SAFE
 The project is the same as the [original one](https://github.com/PrincetonML/SIF) but the SIF/examples/sif_embedding.py file and some minor modifications for adapting python3.
 * Intermediate result: we provide [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), which is the result of `data_io.getWordmap(wordfile)` in SIF. words.json and We.npy should be downloaded and placed into SIF/data/.
-* Embedding: the modified sif_embedding.py will access cleaned.json files in the preprocessed dataset [FakeNewsNet_Dataset_processed](https://drive.google.com/file/d/1h13IOBk106kLXGXkjvnMhbwk1dOQTbC-/view?usp=sharing) and embed the article headline and text into headline.npy and body.npy, respectively. Please modify the parameters, `keep_headline_words` and `keep_body_workds`, according to your needs.
+* Embedding: the modified sif_embedding.py will access cleaned.json files in the preprocessed dataset [FakeNewsNet_Dataset_processed](https://drive.google.com/file/d/1h13IOBk106kLXGXkjvnMhbwk1dOQTbC-/view?usp=sharing) and embed the article headline and body into headline.npy and body.npy, respectively. Please modify the parameters, `keep_headline_words` and `keep_body_workds` in sif_embedding.py, according to your needs.
 * Result: FakeNewsNet_Dataset_processed also inclueds the embedding results (headline.npy and body.npy) of each article. `keep_headline_words` and `keep_body_workds` are set to 10 and 100 in the provided results.
 * How to run: 
 ```
