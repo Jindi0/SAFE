@@ -33,6 +33,10 @@ The code is separated into the following parts:
 The project is the same as the [original one](https://github.com/PrincetonML/SIF) but the SIF/examples/sif_embedding.py file and some minor modifications for adapting python3.
 * Intermediate result: we provide [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), which is the result of `data_io.getWordmap(wordfile)` in SIF. words.json and We.npy should be downloaded and placed into SIF/data/.
 * Embedding: the modified sif_embedding.py will access cleaned.json files in the preprocessed dataset [FakeNewsNet_Dataset_processed](https://drive.google.com/file/d/1h13IOBk106kLXGXkjvnMhbwk1dOQTbC-/view?usp=sharing) and embed the article headline and text into headline.npy and body.npy (included in FakeNewsNet_Dataset_processed), respectively.
+* How to run: 
+```
+python3 SIF/examples/sif_embedding.py
+```
 
 
 ## References
