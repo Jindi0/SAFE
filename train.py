@@ -130,10 +130,10 @@ def main(_):
     print('===============================================')
     print('load vectors and labels ... ')
 
-    x_head = np.load('～/pf_embedding/case_headline.npy')
-    x_body = np.load('～/pf_embedding/case_body.npy')
-    x_image = np.load('～/pf_embedding/case_image.npy')
-    y = np.load('～/pf_embedding/case_y_fn.npy')
+    x_head = np.load('../pf_embedding/case_headline.npy')
+    x_body = np.load('../pf_embedding/case_body.npy')
+    x_image = np.load('../pf_embedding/case_image.npy')
+    y = np.load('../pf_embedding/case_y_fn.npy')
 
     print('split training set and test set ... ')
     x_head_train, x_head_test, y_train, y_test = train_test_split(x_head, y, test_size=0.2, random_state=4)

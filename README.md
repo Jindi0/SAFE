@@ -7,12 +7,14 @@ Thanks for the support from the [FakeNewsNet](https://github.com/KaiDMML/FakeNew
 ### Image captioning tool
 We use [Show and Tell](https://github.com/nikhilmaram/Show_and_Tell) to abstract the content of images.
 ### Word2vec embedding
-We embed words use pre-trained word vectors [glove.840B.300d](https://github.com/stanfordnlp/GloVe) and the embedding tool [SIF](https://github.com/PrincetonML/SIF). The computation of glove.840B.300d word map is time-consuming, in order to provide more convenience we upload [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), which is the result of `data_io.getWordmap(wordfile)` in SIF. 
+We embed words use pre-trained word vectors [glove.840B.300d](https://github.com/stanfordnlp/GloVe) and the embedding tool [SIF](https://github.com/PrincetonML/SIF). The computation of glove.840B.300d word map is time-consuming, in order to provide more convenience we upload [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), which is the result of `data_io.getWordmap(wordfile)` in SIF. Please check **embedding** branch for the modified code and embedding results.
 
 
 ## Requirements
 - Python 3.7
 - TensorFlow 2.2
+- xlwt
+- nltk
 
 ## Getting Started
 
@@ -23,6 +25,7 @@ pip install -r requirements.txt
 
 ### Train
 ```
+python3 helper.py
 python3 train.py
 ```
 
