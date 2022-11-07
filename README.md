@@ -7,7 +7,7 @@ We use [FakeNewsNet](https://arxiv.org/abs/1809.01286) dataset and provide our d
 ### Image captioning tool
 We use [Show and Tell](https://github.com/nikhilmaram/Show_and_Tell) to abstract the content of images.
 ### Word2vec embedding
-We embed words use pre-trained word vectors [glove.840B.300d](https://github.com/stanfordnlp/GloVe) and the embedding tool [SIF](https://github.com/PrincetonML/SIF). The computation of glove.840B.300d word map is time-consuming, in order to provide more convenience we upload [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), which is the result of `data_io.getWordmap(wordfile)` in SIF. Please check **embedding** branch for the modified code and embedding results.
+We embed words use pre-trained word vectors [glove.840B.300d](https://github.com/stanfordnlp/GloVe) and the embedding tool [SIF](https://github.com/PrincetonML/SIF). The computation of glove.840B.300d word map is time-consuming, in order to provide more convenience we upload [(words, We)](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=sharing), which is the result of `data_io.getWordmap(wordfile)` in SIF. Please check **embedding** branch for the modified code and [embedding results](https://drive.google.com/drive/folders/1yJSwmx7kpmEHvJ5OTt5mdF9FtFxs4Mqd?usp=share_link).
 
 
 ## Requirements
